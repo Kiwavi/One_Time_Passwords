@@ -1,0 +1,2 @@
+
+{'firstname': 'Derrioi', 'username': 'Ddbfkdbdfjbd', 'password': 'Lets Go 12345 kenya', 'email': 'dekamotho@gmail.com', 'status': 'verified'}
