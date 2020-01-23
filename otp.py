@@ -159,17 +159,4 @@ def Signup():
     else:
         print("Some details you entered are not correct, try again")
 
-
-"""This function grants access to people who have already been
-verified. It should ask for the username and password only. Details
-are then checked in the file with verified people. If the details are
-correct, the person is told that access is granted.  Else, he's told
-wrong details."""
-
-# def Signin():
-# username = input('Username: ')
-# password = input('Password: ')
-# with open('verified_details.txt
-
-
 Signup()
