@@ -135,8 +135,8 @@ def Signup():
         to_send = smtplib.SMTP("smtp.gmail.com", 587)
         to_send.ehlo()
         to_send.starttls()
-        to_send.login("rotpil101@gmail.com", "Arm yourself with scientific knowledge - Cheikh Anta Diop.")
-        to_send.sendmail("rotpil101@gmail.com",
+        to_send.login("$EMAIL_ADDRESS", "£EMAIL_PASSWORD")
+        to_send.sendmail("$EMAIL_ADDRESS",
                          details["email"],
                          str(the_code))
         to_send.quit()
